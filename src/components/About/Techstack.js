@@ -7,26 +7,16 @@ import {
   DiNodejs,
   DiMongodb,
   DiAngularSimple,
-  // DiPython,
   DiJava,
 } from "react-icons/di";
 import {
-  // SiRedis,
-  // SiFirebase,
-  // SiNextdotjs,
-  // SiSolidity,
-  // SiPostgresql,
 } from "react-icons/si";
 
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
-import { TbBrandVscode } from "react-icons/tb";
-import { SiThealgorithms } from "react-icons/si";
 import { SiJquery } from "react-icons/si";
-
-// import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (

@@ -6,9 +6,6 @@ import {
 import {
   SiVisualstudiocode,
   SiPostman,
-  SiSlack,
-  SiVercel,
-  SiMacos,
 } from "react-icons/si";
 
 import { FaWindows } from "react-icons/fa";
