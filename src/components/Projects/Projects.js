@@ -7,7 +7,8 @@ import fastkart from "../../Assets/Projects/fastkart.png";
 import fitclub from "../../Assets/Projects/fitclub.png";
 import IntroductionWebsite from "../../Assets/Projects/Introduction-website.png";
 import nextbit from "../../Assets/Projects/nextbit.png";
-import rockPaperScissors from "../../Assets/Projects/rock-paper-scissors.png"
+import rockPaperScissors from "../../Assets/Projects/rock-paper-scissors.png";
+import movieFix from "../../Assets/Projects/MovieFlix.png"
 
 function Projects() {
   return (
@@ -85,7 +86,16 @@ function Projects() {
               description="Rock Paper and Scissor a popular game amoung all the youngsters in which two people play against each other and make a choice randomly and whoever wins will get a point."
               ghLink="https://github.com/ravi293599/Rock-Paper-Scissor-Game"
               demoLink="https://rock-paper-scissors-ravi.netlify.app/"      
-              // <--------Please include a demo link here 
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={movieFix}
+              isBlog={false}
+              title="MovieFlix"
+              description="Movie Flix is a movie library contains all the information of movies and TV shows details like trailer and watch link, It also has Sign In and Sign Out functionality"
+              ghLink="https://github.com/ravi293599/Netflix-GPT"
+              demoLink="https://movieflix-ravi.netlify.app/"      
             />
           </Col>
         </Row>
