@@ -9,6 +9,7 @@ import IntroductionWebsite from "../../Assets/Projects/Introduction-website.png"
 import nextbit from "../../Assets/Projects/nextbit.png";
 import rockPaperScissors from "../../Assets/Projects/rock-paper-scissors.png";
 import movieFix from "../../Assets/Projects/MovieFlix.png"
+import foodMantra from "../../Assets/Projects/food mantra.png"
 
 function Projects() {
   return (
@@ -51,7 +52,7 @@ function Projects() {
               title="FastKart"
             description="FastKart is a E-commerce type Application with front end and backend, The front end is coded in react while the backend is written in node and express. We can added products in the cart and login logout functionality is there in the app."
               ghLink="https://github.com/ravi293599/FastKart"
-              demoLink="https://github.com/ravi293599/FastKart"            
+              demoLink="https://fastkart-ravi.netlify.app/"            
             />
           </Col>
 
@@ -96,6 +97,16 @@ function Projects() {
               description="Movie Flix is a movie library contains all the information of movies and TV shows details like trailer and watch link, It also has Sign In and Sign Out functionality"
               ghLink="https://github.com/ravi293599/Netflix-GPT"
               demoLink="https://movieflix-ravi.netlify.app/"      
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={foodMantra}
+              isBlog={false}
+              title="Food Mantra"
+              description="Food Mantra is a Food Ordering application where the user can order his/her choice food with easy and userfriendly UI and the delivery will take max 30 min to delivery the food."
+              ghLink="https://github.com/ravi293599/food-mantra"
+              demoLink="https://food-mantra.netlify.app/"      
             />
           </Col>
         </Row>
